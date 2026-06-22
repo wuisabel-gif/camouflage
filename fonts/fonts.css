@@ -1,0 +1,110 @@
+/* ------------------------------------------------------------------ *
+ *  The collection — local @font-face declarations
+ *  Each family is loaded from the cleaned files in /fonts.
+ * ------------------------------------------------------------------ */
+
+@import "./library.css";
+
+@font-face {
+  font-family: "Asgerion";
+  src: url("./asgerion.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Asgerion Line";
+  src: url("./asgerion-line.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Asgerion Solid";
+  src: url("./asgerion-solid.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kids Brush";
+  src: url("./kids-brush.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Millwee Manuscripting";
+  src: url("./millwee-manuscripting.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Steak Muroh";
+  src: url("./steak-muroh.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Wonderful Combination";
+  src: url("./wonderful-combination.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Wubba Lubba Dub Dub";
+  src: url("./wubba-lubba-dub-dub.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Get Schwifty";
+  src: url("./get-schwifty.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rouletta";
+  src: url("./rouletta.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Adobe Garamond";
+  src: url("./adobe-garamond-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Care Bear Family";
+  src: url("./care-bear-family.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Complete";
+  src: url("./complete-plain.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ITC Tiffany Light";
+  src: url("./itc-tiffany-light.otf") format("opentype");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ITC Tiffany Medium";
+  src: url("./itc-tiffany-medium.otf") format("opentype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ITC Tiffany Demi Italic";
+  src: url("./itc-tiffany-demi-italic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ITC Tiffany Heavy";
+  src: url("./tiffany-heavy-condensed.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+}

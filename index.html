@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Camouflage — Find the typeface that fits</title>
+  <meta name="description" content="Camouflage: a typeface-matching tool. Tell it what you're making and it picks the font that fits — every face embedded and ready to use." />
+  <meta name="color-scheme" content="dark" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Camouflage — Find the typeface that fits" />
+  <meta property="og:description" content="A typeface-matching tool, in disguise — answer four questions and it picks the font that fits." />
+  <meta property="og:type" content="website" />
+
+  <!-- UI typeface (chrome only — the collection carries the show) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=3" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png?v=3" />
+  <link rel="icon" href="favicon.ico?v=3" sizes="any" />
+  <link rel="apple-touch-icon" href="favicon-180.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================ Top bar ============================ -->
+  <header class="topbar">
+    <span class="topbar__mark"><img class="topbar__logo" src="mascot-web.png" alt="Camo, the Camouflage chameleon" width="34" height="29" />Camouflage</span>
+    <a class="topbar__cta" href="#matcher">Find your font</a>
+  </header>
+
+  <main>
+    <!-- ============================ Hero ============================ -->
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero__content">
+      <p class="hero__kicker">A typeface-matching tool, in disguise</p>
+      <h1 class="hero__title" id="hero-title" aria-label="Camouflage">
+        <span aria-hidden="true" class="c c1">C</span>
+        <span aria-hidden="true" class="c c2">a</span>
+        <span aria-hidden="true" class="c c3">m</span>
+        <span aria-hidden="true" class="c c4">o</span>
+        <span aria-hidden="true" class="c c5">u</span>
+        <span aria-hidden="true" class="c c6">f</span>
+        <span aria-hidden="true" class="c c7">l</span>
+        <span aria-hidden="true" class="c c8">a</span>
+        <span aria-hidden="true" class="c c9">g</span>
+        <span aria-hidden="true" class="c c10">e</span>
+      </h1>
+      <p class="hero__lede">
+        The title above wears a different face on <b>every single letter</b>.
+        Tell Camouflage what you’re making and it picks the typeface that fits —
+        or type into the box below and test the whole library at once. Every
+        face is embedded and ready to use.
+      </p>
+      <p class="hero__meta">
+        <span>Answer&nbsp;·&nbsp;Match&nbsp;·&nbsp;Embed</span>
+        <span>Self-hosted</span>
+        <span>Works offline</span>
+      </p>
+      </div>
+
+      <div class="hero__mascot" aria-hidden="true">
+        <img class="camo-img" src="mascot-web.png" alt="" width="624" height="536" />
+      </div>
+    </section>
+
+    <!-- ====================== Sticky tester ====================== -->
+    <section class="tester" aria-label="Type tester">
+      <div class="tester__inner wrap">
+        <label class="tester__field">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7V5h16v2M9 19h6M12 5v14"/></svg>
+          <input class="tester__input" id="tester-input" type="text"
+                 placeholder="Type something to test every font…"
+                 autocomplete="off" spellcheck="false"
+                 aria-label="Preview text for all specimens" />
+        </label>
+        <div class="tester__size">
+          <span>Size</span>
+          <input type="range" id="tester-size" min="40" max="180" value="100" step="1" aria-label="Specimen display size" />
+          <output id="tester-size-out">100px</output>
+        </div>
+        <button class="tester__reset" id="tester-reset" type="button">Reset</button>
+      </div>
+    </section>
+
+    <!-- ====================== Font matcher ====================== -->
+    <section class="matcher wrap" id="matcher" aria-labelledby="matcher-title">
+      <div class="matcher__intro">
+        <p class="matcher__eyebrow">Start here</p>
+        <h2 class="matcher__title" id="matcher-title">Find your font first</h2>
+        <p class="matcher__lede">
+          New here? Answer four quick questions about the job and I’ll point you
+          to the face that fits best — then browse the full set below. It’s the
+          same way you’d brief a designer about a client.
+        </p>
+      </div>
+      <div class="matcher__panel">
+        <div id="matcher-quiz" class="quiz"></div>
+        <button type="button" id="matcher-go" class="btn btn--solid matcher__go" disabled>
+          Find my font
+        </button>
+        <div id="matcher-result" class="matcher__result" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ====================== Specimens ====================== -->
+    <section class="specimens wrap" id="specimens" aria-label="Font specimens"></section>
+
+    <!-- ====================== Essay ====================== -->
+    <article class="essay wrap" id="essay" aria-labelledby="essay-title">
+      <p class="essay__kicker">An essay — set in the faces it argues for</p>
+      <h2 class="essay__title" id="essay-title">
+        <span class="et-face">Your face matters.</span>
+        <span class="et-font">Your font matters.</span>
+      </h2>
+
+      <div class="essay__body">
+        <p class="essay__lead"><span class="dropcap">Y</span>ou have judged a stranger by their handwriting. A wedding invitation arrives in a thin, nervous script and you decide, before a single word is read, that the couple is gentle. A note in cut-out capitals frightens you — and there is no kidnapping, only a friend with a dark sense of humor and a birthday to mark. The letters did that. Not the words. The shape the words were wearing.</p>
+
+        <p>We tell ourselves that meaning lives in the language, and that the look of it is a coat thrown over a body that would be the same underneath. It is not so. The face <em>is</em> the body. A letter has no existence apart from some particular shape, and every shape is already an argument about how the thing should be said.</p>
+
+        <h3 class="essay__h essay__h--a">The face you wear</h3>
+
+        <p>Take the word <span class="trust trust--slab">trust</span>, set three ways. In a heavy slab it plants its feet and dares you to move it. In a fine engraved roman, <span class="trust trust--roman">trust</span> offers its hand and a fountain pen. In a wobbling cartoon, <span class="trust trust--toon">trust</span> grins — and you believe it a little less, and that smaller belief is the typeface telling you the truth about itself. Same five letters. Three different promises.</p>
+
+        <p>A typeface is a voice that has agreed to stay silent until you lend it words. It is the accent your sentence speaks in, and we hear an accent before we follow an argument. Long before the reader has weighed what you said, the shapes have told them who you are — or who you were willing to pretend to be.</p>
+
+        <h3 class="essay__h essay__h--b">The default is never neutral</h3>
+
+        <p>To choose a face is not to decorate. It is to choose a manner — the way you will stand in a room you are not standing in, before someone who cannot ask you to repeat yourself. To take whatever the machine offered is also a manner. It says: <em>I did not think you were worth a decision.</em> Indifference is legible. The reader feels it as a draft under the door.</p>
+
+        <blockquote class="essay__pull">The reader meets your face before they meet your mind.</blockquote>
+
+        <p>The old name for a typeface is a <em>face</em>, and the metaphor is not idle. We read letters the way we read faces, fast and bodily and beneath thought, and we trust or distrust them in the same wordless instant. A face that fights its words unsettles us. On purpose we call it irony. By accident we call it amateur. Either way the reader knows.</p>
+
+        <p class="essay__close">So set your words with the care you would bring to dressing for the one meeting you cannot afford to lose. Not to flatter. To be understood. Your words say what you mean. <span class="essay__kicker-line">Your typeface says whether to believe you.</span></p>
+      </div>
+    </article>
+
+    <!-- ====================== Full library ====================== -->
+    <section class="library wrap" id="library" aria-labelledby="library-title">
+      <div class="library__head">
+        <h2 class="library__title" id="library-title">Every face in the cabinet</h2>
+        <p class="library__lede">
+          And here they all are — every embedded font, each name set in its own
+          face. The tester up top drives these too; type and watch them change.
+        </p>
+      </div>
+      <div id="library-grid" class="library__grid"></div>
+    </section>
+
+    <!-- ====================== About ====================== -->
+    <section class="about wrap" id="about">
+      <div>
+        <h2>What this is</h2>
+        <p>
+          A tiny museum of typefaces I love. Most are display and
+          handwriting faces — the loud, characterful kind that never
+          fit a body-text job but make a logo, a poster, or a birthday
+          card sing.
+        </p>
+        <p>
+          Everything is embedded with <code>@font-face</code> straight from
+          the <code>/fonts</code> folder, so the page looks identical on any
+          machine — no font installs, no surprises.
+        </p>
+      </div>
+      <div>
+        <h2>Using a font</h2>
+        <ul>
+          <li><b>1.</b><span>Grab the file from <code>/fonts</code> (clean, readable names).</span></li>
+          <li><b>2.</b><span>Drop it into your design tool, or <code>@font-face</code> it on the web.</span></li>
+          <li><b>3.</b><span>Check each typeface’s own license before commercial use.</span></li>
+        </ul>
+        <p style="margin-top:1.1rem">
+          See the <a class="link" href="README.md">README</a>
+          for the full file map and credits.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot wrap">
+    <span><b>Camouflage</b> — a typeface-matching tool, embedded with care</span>
+    <span>© 2026 <a class="foot__link" href="https://github.com/wuisabel-gif" rel="noopener">wuisabel-gif</a></span>
+  </footer>
+
+  <script src="fonts-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

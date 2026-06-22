@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Editor / tooling
+.vscode/
+.idea/
+*.log
+
+# Local preview config (not needed in the repo)
+.claude/

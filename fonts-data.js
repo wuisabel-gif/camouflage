@@ -1,0 +1,1638 @@
+/* Auto-generated extended font library. Regenerate with the fonts/ build script. */
+window.FONT_LIBRARY = [
+{
+"name": "ALK Life",
+"family": "lib-alk-life-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "ALK Rex Bold",
+"family": "lib-alk-rex-bold-webfont",
+"cat": "Bold",
+"match": [
+"display",
+"bold",
+"headline",
+"poster",
+"logo",
+"punchy",
+"short"
+]
+},
+{
+"name": "ALK Rounded Mtav Med",
+"family": "lib-alk-rounded-mtav-med-webfont",
+"cat": "Rounded",
+"match": [
+"sans",
+"rounded",
+"friendly",
+"casual",
+"playful",
+"readable"
+]
+},
+{
+"name": "ALK Rounded Nusx Med",
+"family": "lib-alk-rounded-nusx-med-webfont",
+"cat": "Rounded",
+"match": [
+"sans",
+"rounded",
+"friendly",
+"casual",
+"playful",
+"readable"
+]
+},
+{
+"name": "ALK Sanet",
+"family": "lib-alk-sanet-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "ALK Tall Mtavruli",
+"family": "lib-alk-tall-mtavruli-webfont",
+"cat": "Georgian",
+"match": [
+"script",
+"traditional",
+"calligraphic",
+"elegant",
+"short"
+]
+},
+{
+"name": "ALK Tall Nusxuri",
+"family": "lib-alk-tall-nusxuri-webfont",
+"cat": "Georgian",
+"match": [
+"script",
+"traditional",
+"calligraphic",
+"elegant",
+"short"
+]
+},
+{
+"name": "ALK Tommaso",
+"family": "lib-alk-tommaso-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "ALK Basri Light",
+"family": "lib-alkbasri-light-webfont",
+"cat": "Light",
+"match": [
+"sans",
+"light",
+"clean",
+"modern",
+"calm",
+"readable"
+]
+},
+{
+"name": "ALK Dots",
+"family": "lib-alkdots-webfont",
+"cat": "Pixel",
+"match": [
+"display",
+"pixel",
+"quirky",
+"experimental",
+"fun",
+"punchy",
+"short"
+]
+},
+{
+"name": "Archy EDT Bold",
+"family": "lib-archyedt-bold-webfont",
+"cat": "Bold",
+"match": [
+"display",
+"bold",
+"headline",
+"poster",
+"logo",
+"punchy",
+"short"
+]
+},
+{
+"name": "Archy EDT Thin",
+"family": "lib-archyedt-thin-webfont",
+"cat": "Light",
+"match": [
+"sans",
+"light",
+"clean",
+"modern",
+"calm",
+"readable"
+]
+},
+{
+"name": "Arial GEO Bold",
+"family": "lib-arial-geo-bold-webfont",
+"cat": "Bold",
+"match": [
+"display",
+"bold",
+"headline",
+"poster",
+"logo",
+"punchy",
+"short"
+]
+},
+{
+"name": "Arial GEO BoldItalic",
+"family": "lib-arial-geo-bolditalic-webfont",
+"cat": "Bold",
+"match": [
+"display",
+"bold",
+"headline",
+"poster",
+"logo",
+"punchy",
+"short"
+]
+},
+{
+"name": "Arial GEO Italic",
+"family": "lib-arial-geo-italic-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "Arial GEO",
+"family": "lib-arial-geo-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Algeti Compact",
+"family": "lib-bpg-algeti-compact-webfont",
+"cat": "Serif",
+"match": [
+"serif",
+"classic",
+"readable",
+"elegant",
+"calm",
+"body"
+]
+},
+{
+"name": "BPG Algeti",
+"family": "lib-bpg-algeti-webfont",
+"cat": "Serif",
+"match": [
+"serif",
+"classic",
+"readable",
+"elegant",
+"calm",
+"body"
+]
+},
+{
+"name": "BPG Arial Caps 2010",
+"family": "lib-bpg-arial-caps-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Arial",
+"family": "lib-bpg-arial-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Banner Caps",
+"family": "lib-bpg-banner-caps-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Banner ExtraSquare Caps",
+"family": "lib-bpg-banner-extrasquare-caps-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Banner ExtraSquare",
+"family": "lib-bpg-banner-extrasquare-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Banner QuadroSquare Caps",
+"family": "lib-bpg-banner-quadrosquare-caps-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Banner QuadroSquare",
+"family": "lib-bpg-banner-quadrosquare-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Banner SuperSquare Caps",
+"family": "lib-bpg-banner-supersquare-caps-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Banner SuperSquare",
+"family": "lib-bpg-banner-supersquare-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Banner",
+"family": "lib-bpg-banner-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Boxo-Boxo",
+"family": "lib-bpg-boxo-boxo-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG Boxo",
+"family": "lib-bpg-boxo-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG Classic Medium",
+"family": "lib-bpg-classic-medium-webfont",
+"cat": "Serif",
+"match": [
+"serif",
+"classic",
+"readable",
+"elegant",
+"calm",
+"body"
+]
+},
+{
+"name": "BPG DedaEna Block",
+"family": "lib-bpg-dedaena-block-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG DedaEna Nonblock",
+"family": "lib-bpg-dedaena-nonblock-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG ExtraSquare Mtavruli",
+"family": "lib-bpg-extrasquare-mtavruli-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG ExtraSquare",
+"family": "lib-bpg-extrasquare-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Glaho Arial 2008",
+"family": "lib-bpg-glaho-arial-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Glaho Bold",
+"family": "lib-bpg-glaho-bold-webfont",
+"cat": "Bold",
+"match": [
+"display",
+"bold",
+"headline",
+"poster",
+"logo",
+"punchy",
+"short"
+]
+},
+{
+"name": "BPG Glaho Traditional",
+"family": "lib-bpg-glaho-traditional-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Glaho WEB Caps",
+"family": "lib-bpg-glaho-web-caps-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Glaho WEB",
+"family": "lib-bpg-glaho-web-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Glaho",
+"family": "lib-bpg-glaho-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Ingiri Arial 2008",
+"family": "lib-bpg-ingiri-arial-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Ingiri 2008",
+"family": "lib-bpg-ingiri-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG Irubaqidze",
+"family": "lib-bpg-irubaqidze-webfont",
+"cat": "Serif",
+"match": [
+"serif",
+"classic",
+"readable",
+"elegant",
+"calm",
+"body"
+]
+},
+{
+"name": "BPG LE Studio 02 Caps",
+"family": "lib-bpg-le-studio-02-caps-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG LE Studio 02",
+"family": "lib-bpg-le-studio-02-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG LE Studio 04 Caps",
+"family": "lib-bpg-le-studio-04-caps-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG LE Studio 04",
+"family": "lib-bpg-le-studio-04-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG Mikheil Stefane",
+"family": "lib-bpg-mikheil-stefane-webfont",
+"cat": "Serif",
+"match": [
+"serif",
+"classic",
+"readable",
+"elegant",
+"calm",
+"body"
+]
+},
+{
+"name": "BPG Mrgvlovani Caps 2010",
+"family": "lib-bpg-mrgvlovani-caps-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG Mrgvlovani 2010",
+"family": "lib-bpg-mrgvlovani-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG Nateli Mtavruli",
+"family": "lib-bpg-nateli-mtavruli-webfont",
+"cat": "Georgian",
+"match": [
+"script",
+"traditional",
+"calligraphic",
+"elegant",
+"short"
+]
+},
+{
+"name": "BPG Nateli",
+"family": "lib-bpg-nateli-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG Nino Elite Caps",
+"family": "lib-bpg-nino-elite-caps-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Nino Elite Cond Caps",
+"family": "lib-bpg-nino-elite-cond-caps-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Nino Elite Cond",
+"family": "lib-bpg-nino-elite-cond-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Nino Elite Exp Caps",
+"family": "lib-bpg-nino-elite-exp-caps-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Nino Elite Exp",
+"family": "lib-bpg-nino-elite-exp-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Nino Elite Round Cond",
+"family": "lib-bpg-nino-elite-round-cond-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Nino Elite Round",
+"family": "lib-bpg-nino-elite-round-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Nino Elite Ultra Caps",
+"family": "lib-bpg-nino-elite-ultra-caps-webfont",
+"cat": "Heavy",
+"match": [
+"display",
+"bold",
+"heavy",
+"loud",
+"poster",
+"headline",
+"punchy",
+"short"
+]
+},
+{
+"name": "BPG Nino Elite Ultra",
+"family": "lib-bpg-nino-elite-ultra-webfont",
+"cat": "Heavy",
+"match": [
+"display",
+"bold",
+"heavy",
+"loud",
+"poster",
+"headline",
+"punchy",
+"short"
+]
+},
+{
+"name": "BPG Nino Elite",
+"family": "lib-bpg-nino-elite-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Nino Medium Caps",
+"family": "lib-bpg-nino-medium-caps-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Nino Medium Condenced",
+"family": "lib-bpg-nino-medium-condenced-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Nino Medium",
+"family": "lib-bpg-nino-medium-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Nino Mkhedruli Bold",
+"family": "lib-bpg-nino-mkhedruli-bold-webfont",
+"cat": "Georgian",
+"match": [
+"script",
+"traditional",
+"calligraphic",
+"elegant",
+"short"
+]
+},
+{
+"name": "BPG Nino Mkhedruli Book",
+"family": "lib-bpg-nino-mkhedruli-book-webfont",
+"cat": "Georgian",
+"match": [
+"script",
+"traditional",
+"calligraphic",
+"elegant",
+"short"
+]
+},
+{
+"name": "BPG Nino Mkhedruli",
+"family": "lib-bpg-nino-mkhedruli-webfont",
+"cat": "Georgian",
+"match": [
+"script",
+"traditional",
+"calligraphic",
+"elegant",
+"short"
+]
+},
+{
+"name": "BPG Nino Mtavruli Bold",
+"family": "lib-bpg-nino-mtavruli-bold-webfont",
+"cat": "Georgian",
+"match": [
+"script",
+"traditional",
+"calligraphic",
+"elegant",
+"short"
+]
+},
+{
+"name": "BPG Nino Mtavruli Book",
+"family": "lib-bpg-nino-mtavruli-book-webfont",
+"cat": "Georgian",
+"match": [
+"script",
+"traditional",
+"calligraphic",
+"elegant",
+"short"
+]
+},
+{
+"name": "BPG Nino Mtavruli",
+"family": "lib-bpg-nino-mtavruli-webfont",
+"cat": "Georgian",
+"match": [
+"script",
+"traditional",
+"calligraphic",
+"elegant",
+"short"
+]
+},
+{
+"name": "BPG No9",
+"family": "lib-bpg-no9-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG Nostalgia Bold",
+"family": "lib-bpg-nostalgia-bold-webfont",
+"cat": "Bold",
+"match": [
+"display",
+"bold",
+"headline",
+"poster",
+"logo",
+"punchy",
+"short"
+]
+},
+{
+"name": "BPG Nostalgia",
+"family": "lib-bpg-nostalgia-webfont",
+"cat": "Serif",
+"match": [
+"serif",
+"classic",
+"readable",
+"elegant",
+"calm",
+"body"
+]
+},
+{
+"name": "BPG Nuskha Modern",
+"family": "lib-bpg-nuskha-modern-webfont",
+"cat": "Serif",
+"match": [
+"serif",
+"classic",
+"readable",
+"elegant",
+"calm",
+"body"
+]
+},
+{
+"name": "BPG ParaGraph Chveulebrivi",
+"family": "lib-bpg-paragraph-chveulebrivi-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG Phone Sans Bold Italic",
+"family": "lib-bpg-phone-sans-bold-italic-webfont",
+"cat": "Bold",
+"match": [
+"display",
+"bold",
+"headline",
+"poster",
+"logo",
+"punchy",
+"short"
+]
+},
+{
+"name": "BPG Phone Sans Bold",
+"family": "lib-bpg-phone-sans-bold-webfont",
+"cat": "Bold",
+"match": [
+"display",
+"bold",
+"headline",
+"poster",
+"logo",
+"punchy",
+"short"
+]
+},
+{
+"name": "BPG Phone Sans Italic",
+"family": "lib-bpg-phone-sans-italic-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Phone Sans",
+"family": "lib-bpg-phone-sans-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG QuadroSquare 2013",
+"family": "lib-bpg-quadrosquare-2013-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG QuadroSquare Caps 2013",
+"family": "lib-bpg-quadrosquare-caps-2013-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG QuadroSquare Mtavruli",
+"family": "lib-bpg-quadrosquare-mtavruli-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG QuadroSquare",
+"family": "lib-bpg-quadrosquare-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Rioni Arial",
+"family": "lib-bpg-rioni-arial-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Rioni Contrast",
+"family": "lib-bpg-rioni-contrast-webfont",
+"cat": "Serif",
+"match": [
+"serif",
+"classic",
+"readable",
+"elegant",
+"calm",
+"body"
+]
+},
+{
+"name": "BPG Rioni Vera Condensed Light",
+"family": "lib-bpg-rioni-vera-condensed-light-webfont",
+"cat": "Light",
+"match": [
+"sans",
+"light",
+"clean",
+"modern",
+"calm",
+"readable"
+]
+},
+{
+"name": "BPG Rioni Vera Light",
+"family": "lib-bpg-rioni-vera-light-webfont",
+"cat": "Light",
+"match": [
+"sans",
+"light",
+"clean",
+"modern",
+"calm",
+"readable"
+]
+},
+{
+"name": "BPG Rioni Vera",
+"family": "lib-bpg-rioni-vera-webfont",
+"cat": "Serif",
+"match": [
+"serif",
+"classic",
+"readable",
+"elegant",
+"calm",
+"body"
+]
+},
+{
+"name": "BPG Rioni",
+"family": "lib-bpg-rioni-webfont",
+"cat": "Serif",
+"match": [
+"serif",
+"classic",
+"readable",
+"elegant",
+"calm",
+"body"
+]
+},
+{
+"name": "BPG Sans",
+"family": "lib-bpg-sans-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Square Banner 2013",
+"family": "lib-bpg-square-banner-2013-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Square Banner Caps 2013",
+"family": "lib-bpg-square-banner-caps-2013-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Square Mtavruli",
+"family": "lib-bpg-square-mtavruli-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Square",
+"family": "lib-bpg-square-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG SuperSquare 2013",
+"family": "lib-bpg-supersquare-2013-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG SuperSquare Caps 2013",
+"family": "lib-bpg-supersquare-caps-2013-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG SuperSquare Mtavruli",
+"family": "lib-bpg-supersquare-mtavruli-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG SuperSquare",
+"family": "lib-bpg-supersquare-webfont",
+"cat": "Geometric",
+"match": [
+"display",
+"geometric",
+"bold",
+"poster",
+"headline",
+"logo",
+"short",
+"punchy"
+]
+},
+{
+"name": "BPG Ucnobi",
+"family": "lib-bpg-ucnobi-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG Venuri 2010",
+"family": "lib-bpg-venuri-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "BPG WEB 001 Caps",
+"family": "lib-bpg-web-001-caps-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG WEB 001",
+"family": "lib-bpg-web-001-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG Web 002 Caps",
+"family": "lib-bpg-web-002-caps-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "BPG Web 002",
+"family": "lib-bpg-web-002-webfont",
+"cat": "Display",
+"match": [
+"display",
+"short",
+"poster",
+"logo",
+"punchy"
+]
+},
+{
+"name": "DejaVu Sans Bold",
+"family": "lib-dejavu-sans-bold-webfont",
+"cat": "Bold",
+"match": [
+"display",
+"bold",
+"headline",
+"poster",
+"logo",
+"punchy",
+"short"
+]
+},
+{
+"name": "DejaVu Sans Condensed Bold Oblique",
+"family": "lib-dejavu-sans-condensed-bold-oblique-webfont",
+"cat": "Bold",
+"match": [
+"display",
+"bold",
+"headline",
+"poster",
+"logo",
+"punchy",
+"short"
+]
+},
+{
+"name": "DejaVu Sans Condensed Bold",
+"family": "lib-dejavu-sans-condensed-bold-webfont",
+"cat": "Bold",
+"match": [
+"display",
+"bold",
+"headline",
+"poster",
+"logo",
+"punchy",
+"short"
+]
+},
+{
+"name": "DejaVu Sans Condensed Oblique",
+"family": "lib-dejavu-sans-condensed-oblique-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "DejaVu Sans Condensed Book",
+"family": "lib-dejavu-sans-condensed-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "DejaVu Sans Light ExtraLight",
+"family": "lib-dejavu-sans-extra-light-webfont",
+"cat": "Light",
+"match": [
+"sans",
+"light",
+"clean",
+"modern",
+"calm",
+"readable"
+]
+},
+{
+"name": "DejaVu Sans Oblique",
+"family": "lib-dejavu-sans-oblique-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "DejaVu Sans",
+"family": "lib-dejavu-sans-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+},
+{
+"name": "Gugeshashvili Rachveli",
+"family": "lib-gugeshashvili-rachveli-webfont",
+"cat": "Georgian",
+"match": [
+"script",
+"traditional",
+"calligraphic",
+"elegant",
+"short"
+]
+},
+{
+"name": "KA KOLHETI",
+"family": "lib-ka-kolheti-webfont",
+"cat": "Georgian",
+"match": [
+"script",
+"traditional",
+"calligraphic",
+"elegant",
+"short"
+]
+},
+{
+"name": "KA LORTKIPANIDZE",
+"family": "lib-ka-lortkipanidze-webfont",
+"cat": "Georgian",
+"match": [
+"script",
+"traditional",
+"calligraphic",
+"elegant",
+"short"
+]
+},
+{
+"name": "MG BitNeon Chaos",
+"family": "lib-mg-bitneon-chaos-webfont",
+"cat": "Pixel",
+"match": [
+"display",
+"pixel",
+"quirky",
+"experimental",
+"fun",
+"punchy",
+"short"
+]
+},
+{
+"name": "MG BitNeon Hollow",
+"family": "lib-mg-bitneon-hollow-webfont",
+"cat": "Pixel",
+"match": [
+"display",
+"pixel",
+"quirky",
+"experimental",
+"fun",
+"punchy",
+"short"
+]
+},
+{
+"name": "MG BitNeon",
+"family": "lib-mg-bitneon-webfont",
+"cat": "Pixel",
+"match": [
+"display",
+"pixel",
+"quirky",
+"experimental",
+"fun",
+"punchy",
+"short"
+]
+},
+{
+"name": "MG Glaho Drunk",
+"family": "lib-mg-glaho-drunk-webfont",
+"cat": "Sans",
+"match": [
+"sans",
+"clean",
+"modern",
+"readable",
+"body",
+"neutral",
+"calm"
+]
+}
+];

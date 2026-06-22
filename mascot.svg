@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="116 70 292 296" role="img" aria-labelledby="mascotTitle mascotDesc">
+  <title id="mascotTitle">Camo, the Camouflage chameleon</title>
+  <desc id="mascotDesc">A coral cartoon chameleon on a branch, its body spotted with letters in different fonts, flicking its tongue to catch an ampersand.</desc>
+
+  <ellipse cx="226" cy="346" rx="118" ry="13" fill="#000" opacity="0.22"/>
+  <path d="M44 320 Q214 302 366 324" fill="none" stroke="#3a2a1c" stroke-width="14" stroke-linecap="round"/>
+
+  <path d="M165 214 C132 236 128 286 170 300 C206 312 232 286 220 262 C210 242 182 246 184 268"
+        fill="none" stroke="#d9743f" stroke-width="19" stroke-linecap="round"/>
+
+  <path d="M212 244 C202 274 202 298 210 318" fill="none" stroke="#d9743f" stroke-width="21" stroke-linecap="round"/>
+  <path d="M210 316 q-12 4 -16 14 m16 -14 q4 8 1 18" fill="none" stroke="#c25e32" stroke-width="6" stroke-linecap="round"/>
+
+  <path d="M286 132 C282 96 296 78 322 76 C314 100 308 120 304 140 Z" fill="#d9743f"/>
+  <g fill="#d9743f">
+    <path d="M268 108 l7 -17 l9 14 z"/>
+    <path d="M244 100 l6 -17 l10 14 z"/>
+    <path d="M218 100 l5 -16 l10 13 z"/>
+    <path d="M192 110 l4 -15 l10 12 z"/>
+    <path d="M170 128 l3 -14 l10 11 z"/>
+  </g>
+
+  <path d="M348 196 C357 180 352 166 339 159 C334 120 300 102 266 112 C236 96 194 104 166 142
+           C148 166 145 194 160 216 C177 240 212 248 248 243 C289 238 320 224 341 207 C347 203 348 200 348 196 Z"
+        fill="#ee8a55" stroke="#c25e32" stroke-width="4" stroke-linejoin="round"/>
+
+  <path d="M170 206 C190 232 224 240 256 236 C292 231 318 218 336 204 C322 226 290 236 256 240 C214 245 184 230 170 206 Z"
+        fill="#f6a878" opacity="0.55"/>
+
+  <path d="M296 238 C302 268 302 296 304 316" fill="none" stroke="#e6814c" stroke-width="22" stroke-linecap="round"/>
+  <path d="M304 314 q-12 4 -16 15 m16 -15 q5 8 2 19" fill="none" stroke="#c25e32" stroke-width="6" stroke-linecap="round"/>
+
+  <g fill="#fbeede" opacity="0.95">
+    <text x="206" y="160" font-family="Georgia, serif" font-size="30" font-style="italic">A</text>
+    <text x="244" y="190" font-family="'Brush Script MT', 'Snell Roundhand', cursive" font-size="34">f</text>
+    <text x="198" y="214" font-family="'Courier New', monospace" font-size="24">g</text>
+    <text x="168" y="200" font-family="Arial, sans-serif" font-weight="700" font-size="20">e</text>
+  </g>
+
+  <circle cx="312" cy="156" r="23" fill="#ee8a55" stroke="#c25e32" stroke-width="4"/>
+  <circle cx="313" cy="157" r="15" fill="#fbeede"/>
+  <circle cx="318" cy="159" r="8" fill="#241C16"/>
+  <circle cx="321" cy="155" r="2.6" fill="#fff"/>
+
+  <path d="M334 198 C343 201 351 200 357 196" fill="none" stroke="#7a3a20" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M350 199 C368 202 380 207 390 199" fill="none" stroke="#e0566f" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="392" cy="197" r="11" fill="#fbeede"/>
+  <text x="392" y="202" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#c25e32" font-weight="700">&amp;</text>
+</svg>
