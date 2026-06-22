@@ -231,11 +231,25 @@ root.innerHTML = FONTS.map((f, i) => {
   </article>`;
 }).join("");
 
-/* ---------- Extended library wall (fonts load lazily) ----------- */
+/* ---------- Full library wall (every face, fonts load lazily) --- */
 const libRoot = document.getElementById("library-grid");
 const LIB = Array.isArray(window.FONT_LIBRARY) ? window.FONT_LIBRARY : [];
-if (libRoot && LIB.length) {
-  libRoot.innerHTML = LIB.map((f) => `
+
+// Curated faces (and each of their cuts) belong in the cabinet too.
+const CURATED_FACES = FONTS.flatMap((f) =>
+  f.variants
+    ? f.variants.map((v) => ({
+        name: v.label === "Regular" ? f.name : `${f.name} ${v.label}`,
+        family: v.family,
+        cat: f.tags[0],
+      }))
+    : [{ name: f.name, family: f.family, cat: f.tags[0] }]
+);
+
+const ALL_FACES = CURATED_FACES.concat(LIB);
+
+if (libRoot && ALL_FACES.length) {
+  libRoot.innerHTML = ALL_FACES.map((f) => `
     <figure class="lib-cell">
       <div class="lib-cell__sample preview" data-libfamily="${esc(f.family)}">${esc(f.name)}</div>
       <figcaption class="lib-cell__meta">
