@@ -168,13 +168,14 @@ commit fonts you can't redistribute).
 ## 📜 Licensing
 
 This repository contains the **site code** plus a personal collection of fonts
-gathered from free-font sites. **The typefaces are the property of their
-respective designers and foundries.**
+gathered from free-font sites. The two are licensed separately.
 
-- **Site code (HTML/CSS/JS) © 2026 [wuisabel-gif](https://github.com/wuisabel-gif).** Free to reuse and adapt.
-- **Each font keeps its own license.** Several of these were distributed as
-  *free for personal use* — **verify the individual license before any
-  commercial use**, and credit the original designer where required.
+- **Site code** (HTML/CSS/JS, build scripts, docs) — **[MIT License](LICENSE)**,
+  © 2026 [wuisabel-gif](https://github.com/wuisabel-gif). Free to use, copy, and adapt.
+- **Fonts are NOT covered by the MIT license.** Each typeface remains the
+  property of its designer/foundry and keeps its own license — several are
+  *free for personal use* and a few are commercial. **Verify the individual
+  license before any commercial use**, and credit the designer where required.
 
 If you are a font's author and would like a credit added or a file removed,
 please open an issue.
