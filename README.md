@@ -152,6 +152,47 @@ camouflage/
 
 ---
 
+## 🧩 Built by stacking skills
+
+Camouflage wasn't built by one prompt. It was assembled by **composing several
+Claude Code skills**, each handling a different altitude of the work. Skills are
+reusable packets of expertise you invoke with a slash command (`/impeccable`,
+`/beautiful-type`); several can be active in the same session, and they layer
+rather than fight — because each one owns a different scope.
+
+The build used four:
+
+| Skill | Scope | What it did here |
+|---|---|---|
+| **`impeccable`** | The whole interface — layout, color, motion, hierarchy, responsiveness | Shaped the dark gallery, the sticky tester, the section rhythm, the reveal animations |
+| **`beautiful-type`** | Typography only — font choice, pairing, scale, `@font-face`, micro-typography | Drove the embedding, the disguised wordmark, the type scale, and the matcher's brief→face logic. *(This skill was generated **from** this project.)* |
+| **`hue`** | Meta — *generates* new design-language skills | Could spin Camouflage's look into a reusable brand skill of its own |
+| **`cadence`** | Prose voice — makes writing sound human, in a chosen tone | Wrote the *"Your face matters"* essay in a philosopher's register, scored 0 on its de-slop detector |
+
+### How to combine them yourself
+
+Think in **altitudes**, and go broad → narrow:
+
+1. **Set the identity** — if you have a brand look, capture it as a skill with
+   `/hue` first, so every later step inherits it.
+2. **Build the interface** — `/impeccable craft <page>` for structure, layout,
+   color, and motion. This is the generalist; it scaffolds the whole thing.
+3. **Refine one dimension** — invoke a specialist on the result. `/beautiful-type`
+   tunes the type system; another skill could own color, or copy.
+4. **Fill the words** — `/cadence write <brief>` for any real prose so it doesn't
+   read as AI filler.
+
+They don't conflict because they don't overlap: `impeccable` works at the
+whole-page level and *defers* the deep type decisions to `beautiful-type`, which
+in turn leaves layout and color alone. A generalist sets the stage; a specialist
+sweats one detail. Stack as many as the job has distinct layers — just keep each
+to its own scope and run them broad-first.
+
+> Want the Camouflage look as a one-command skill? Run `/hue` and point it at this
+> site; it'll generate a design-language skill you can `/invoke` on any new page.
+
+---
+
 ## 📜 Licensing
 
 This repository contains the **site code** plus a personal collection of fonts
