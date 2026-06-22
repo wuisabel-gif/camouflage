@@ -30,6 +30,8 @@ looks identical on any machine with nothing to install.
 > Answer four questions, or type into the tester — the whole library rewrites
 > itself in real time.
 
+**New here?** Read [**Why bother?**](WHY.md) — your font is your signature.
+
 ---
 
 ## ✨ What's inside
