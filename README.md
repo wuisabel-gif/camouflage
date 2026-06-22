@@ -30,30 +30,6 @@ Just open `index.html`.
 
 ---
 
-## 🔤 The collection
-
-| # | Typeface | File | Style | Format |
-|---|----------|------|-------|--------|
-| 01 | **Asgerion** | `fonts/asgerion.otf` | Display · Fantasy | OTF |
-|    | Asgerion Line | `fonts/asgerion-line.otf` | Display (outline cut) | OTF |
-|    | Asgerion Solid | `fonts/asgerion-solid.otf` | Display (solid cut) | OTF |
-| 02 | **Steak Muroh** | `fonts/steak-muroh.ttf` | Display · Heavy | TTF |
-| 03 | **Wonderful Combination** | `fonts/wonderful-combination.otf` | Script · Signature | OTF |
-| 04 | **Kids Brush** | `fonts/kids-brush.ttf` | Brush · Handwriting | TTF |
-| 05 | **Millwee Manuscripting** | `fonts/millwee-manuscripting.ttf` | Script · Handwriting | TTF |
-| 06 | **Get Schwifty** | `fonts/get-schwifty.ttf` | Display · Cartoon | TTF |
-| 07 | **Wubba Lubba Dub Dub** | `fonts/wubba-lubba-dub-dub.ttf` | Display · Cartoon | TTF |
-| 08 | **Rouletta** | `fonts/rouletta.ttf` | Script · Monoline | TTF |
-| 09 | **Adobe Garamond** | `fonts/adobe-garamond-bold.ttf` | Serif · Classic (Bold) | TTF |
-| 10 | **ITC Tiffany** | `fonts/itc-tiffany-medium.otf` | Serif · Fashion | OTF |
-|    | ITC Tiffany Light | `fonts/itc-tiffany-light.otf` | Serif (light cut) | OTF |
-|    | ITC Tiffany Demi Italic | `fonts/itc-tiffany-demi-italic.otf` | Serif (italic cut) | OTF |
-|    | ITC Tiffany Heavy | `fonts/tiffany-heavy-condensed.ttf` | Serif (heavy condensed) | TTF |
-| 11 | **Care Bear Family** | `fonts/care-bear-family.ttf` | Display · Cute | TTF |
-| 12 | **Complete** | `fonts/complete-plain.ttf` | Display · Heavy | TTF |
-
----
-
 ## 🎯 Font Matcher
 
 Not sure which face suits a project? The **Font Matcher** section asks four
@@ -121,32 +97,19 @@ camouflage/
 ├── index.html          # The page
 ├── styles.css          # Theme, layout, specimens, matcher, motion
 ├── app.js              # Specimen data + live tester + Font Matcher
-├── mascot.png          # "Camo" the chameleon mascot (source)
-├── mascot-web.png      # background removed, used on the site
-├── mascot.svg          # earlier vector mascot (unused)
+├── fonts-data.js       # Generated library list
+├── mascot-web.png      # "Camo" the chameleon mascot
 ├── README.md
+├── CONTRIBUTING.md
+├── scripts/
+│   └── build_library.py    # Regenerates the library from fonts/
 └── fonts/
-    ├── fonts.css       # @font-face declarations
-    ├── asgerion.otf
-    ├── asgerion-line.otf
-    ├── asgerion-solid.otf
-    ├── steak-muroh.ttf
-    ├── wonderful-combination.otf
-    ├── kids-brush.ttf
-    ├── millwee-manuscripting.ttf
-    ├── get-schwifty.ttf
-    ├── wubba-lubba-dub-dub.ttf
-    ├── rouletta.ttf
-    ├── adobe-garamond-bold.ttf
-    ├── itc-tiffany-light.otf
-    ├── itc-tiffany-medium.otf
-    ├── itc-tiffany-demi-italic.otf
-    ├── tiffany-heavy-condensed.ttf
-    ├── care-bear-family.ttf
-    └── complete-plain.ttf
+    ├── fonts.css       # @font-face for the featured faces (hand-written)
+    ├── library.css     # @font-face for the rest (generated)
+    └── *.ttf / *.otf   # the font files, kebab-case
 ```
 
-> Files were renamed from their original download names (e.g.
+> Font files are renamed from their original download names (e.g.
 > `SteakMurohRegular-3z7yX.ttf` → `steak-muroh.ttf`) to clean, readable,
 > kebab-case names.
 
