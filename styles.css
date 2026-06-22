@@ -149,6 +149,14 @@ main, header, footer { position: relative; z-index: 1; }
   transition: background 0.18s, color 0.18s;
 }
 .topbar__cta:hover { background: var(--coral); color: var(--coral-ink); }
+.topbar__right { display: inline-flex; align-items: center; gap: 0.9rem; }
+.topbar__gh {
+  display: inline-flex;
+  color: var(--muted);
+  transition: color 0.18s, transform 0.18s;
+}
+.topbar__gh:hover { color: var(--coral); transform: translateY(-1px); }
+.topbar__gh svg { width: 1.45rem; height: 1.45rem; display: block; }
 
 /* ================================================================
    Hero
