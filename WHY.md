@@ -19,11 +19,18 @@ The default is not neutral. It only pretends to be. Taking whatever the machine
 offered is still a choice; it just says *I didn't make one.* And indifference is
 legible — the reader feels it as a draft under the door.
 
-That's the whole reason this exists. Choosing type is supposed to be a
-specialist's job — hours of pairing, scales, licensing, dread. Camouflage makes
-the decision cheap. Tell it what you're making; it hands you a face that fits.
-Type one word; watch the whole library wear it. You don't have to become a
-typographer. You just have to stop signing in a hand that isn't yours.
+And the usual way of choosing is scattered. Normally you go hunting across a
+dozen websites — one to browse, another to type your own words into a preview, a
+third to read the license, a fourth to finally download the file — comparing
+faces from memory because no two of them ever sit on the same screen. You open
+twenty tabs to choose one font.
+
+That's the whole reason this exists. Camouflage keeps the entire shelf in one
+place: every face, your text, side by side, right now. Tell it what you're
+making and it hands you the one that fits. Type a single word and watch the whole
+library wear it. No tab-hopping, no specialist's afternoon of pairing and
+licensing and dread — you don't have to become a typographer. You just have to
+stop signing in a hand that isn't yours.
 
 So — bother. Not to decorate. To be understood, and to sound like yourself while
 you are.
