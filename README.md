@@ -4,6 +4,22 @@
 
 <h1 align="center">Camouflage — A typeface-matching tool</h1>
 
+<p align="center">
+  <a href="https://wuisabel-gif.github.io/camouflage/"><img src="https://img.shields.io/badge/demo-live-EF885A?logo=githubpages&logoColor=white" alt="Live demo"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/wuisabel-gif/camouflage?color=EF885A" alt="License: MIT"></a>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/build-none-2A221C" alt="No build step">
+  <img src="https://img.shields.io/badge/deps-zero-2A221C" alt="Zero dependencies">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Answer%204%20questions-find%20your%20font-EF885A" alt="Find your font">
+  <img src="https://img.shields.io/badge/Type%20one%20word-test%20every%20face-3A3128" alt="Test every face">
+  <img src="https://img.shields.io/badge/Self--hosted-works%20offline-5BA86A?logo=ghostery&logoColor=white" alt="Works offline">
+</p>
+
 A tool for picking the right typeface, in disguise. Tell it what you're
 making and it recommends the face that fits; or type into the tester and
 preview the whole embedded library at once. The name says it: on the home page
