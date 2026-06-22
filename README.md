@@ -193,6 +193,15 @@ to its own scope and run them broad-first.
 
 ---
 
+## 🤝 Contributing
+
+Adding a font, tuning the matcher, or improving the site? See
+[CONTRIBUTING.md](CONTRIBUTING.md) — it covers running locally, the two ways to
+add a typeface, how the Font Matcher scores, and the font-license rule (don't
+commit fonts you can't redistribute).
+
+---
+
 ## 📜 Licensing
 
 This repository contains the **site code** plus a personal collection of fonts
